@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.increment-button {
+  background-color: #bfe9ff;
+  color: #ffffff;
+  border-radius: 10px;
+  height: 36px;
+  padding: 5px;
+}
+
+.background-container {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.main-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  margin: 30px;
+  padding: 50px;
+  background-size: cover;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #0f172a;
+  text-align: center;
+}
+
+.message {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #334155;
+  text-align: center;
+}
+
+.text {
+  color: #1e293b;
+  text-align: center;
+}
