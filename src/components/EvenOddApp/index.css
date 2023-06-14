@@ -1,9 +1,11 @@
 /* Write your CSS here */
 .increment-button {
-  background-color: #bfe9ff;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #0f172a;
+  border-width: 0px;
   border-radius: 10px;
   height: 36px;
+  width: 130px;
   padding: 5px;
 }
 
@@ -14,9 +16,15 @@
 
 .main-container {
   background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
-  margin: 30px;
+  margin: 100px;
   padding: 50px;
+  border-radius: 10px;
   background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .heading {
@@ -38,4 +46,12 @@
 .text {
   color: #1e293b;
   text-align: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #1e293b;
 }
